@@ -102,9 +102,9 @@ const messages = {
     removeFile: '移除文件',
     mergeFiles: '合并文件',
     merging: '正在合并…',
-    footerCreatedWith: '精心打造，用',
+    footerCreatedWith: '精心打造',
     footerBy: '作者',
-    footerTranslatedBy: '翻译支持',
+    footerTranslatedBy: '本地化支持',
     footerRights: 'v3.0 © 2026 版权所有',
     errors: {
       licenseTypeRequired: '请选择一个版本类型',
