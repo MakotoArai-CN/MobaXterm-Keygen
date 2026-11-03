@@ -5,8 +5,8 @@
   
   <p>
     <a href="#"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" /></a>
-    <a href="#"><img src="https://img.shields.io/badge/Version-v3.0-green.svg?style=for-the-badge" alt="Version" /></a>
-    <a href="#"><img src="https://img.shields.io/badge/Compatible-v20.X%20|%20v26.2%20|%20v26.3-orange?style=for-the-badge" alt="Compatibility" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Version-v3.2-green.svg?style=for-the-badge" alt="Version" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Compatible-v20.X%20|%20v26.5%20|%20v26.6-orange?style=for-the-badge" alt="Compatibility" /></a>
   </p>
   
   <p><em>⭐ Please star this repository if you find it helpful! ⭐</em></p>
@@ -33,7 +33,7 @@ All processes run **100% locally** in your browser, ensuring maximum privacy and
 
 ## 🚀 Compatibility
 
-- Official support tested extensively with MobaXterm versions **20.X, 26.2, and 26.3**.
+- Official support tested extensively with MobaXterm versions **20.X, 26.5, and 26.6**.
 - Compatible with both **Portable** and **Installer (Desktop)** editions.
 
 ## 📖 How to Use
@@ -44,7 +44,7 @@ All processes run **100% locally** in your browser, ensuring maximum privacy and
 2. **Setup your License**:
    - Choose your preferred MobaXterm Edition from the dropdown.
    - Enter your username (alphabetical characters only).
-   - Input your current target version (e.g., `26.3`).
+   - Input your current target version (e.g., `26.6`).
    - Define your desired number of users.
 3. **Generate**: Click the big **"Generate License"** button to start downloading your `Custom.mxtpro` key.
 4. **Deploy**: Drop this file inside your MobaXterm installation folder:
@@ -67,7 +67,7 @@ If you have personalized MobaXterm preferences (Customizer tweaks, logos, bash p
 
 <details>
 <summary><strong>Activation isn't being recognized?</strong></summary>
-Ensure you are running a supported version range (v20.X, 26.2, or 26.3). Also, make sure the file is strictly named `Custom.mxtpro` without any duplicates like `Custom (1).mxtpro`.
+Ensure you are running a supported version range (v20.X, 26.5, or 26.6). Also, make sure the file is strictly named `Custom.mxtpro` without any duplicates like `Custom (1).mxtpro`.
 </details>
 
 <details>
@@ -83,6 +83,8 @@ This tool operates completely **Client-Side** leveraging `Vue.js` and pure DOM m
 
 ## 📈 Version History
 
+- **v3.2** - Added support for version 26.6 (latest release, 2026-10-25); multilingual UI (EN / 简体中文 / 日本語).
+- **v3.1** - Added support for version 26.5
 - **v3.0** - Refined UI using a completely reconstructed Glassmorphism aesthetic and modern UX updates. Updated support for up to `26.3`.
 - **v2.7** - Added support for version 26.0
 - **v2.6** - Added support for version 25.4

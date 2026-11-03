@@ -465,7 +465,10 @@
                 <!-- Version -->
                 <div class="group">
                   <label for="versionName"
-                    class="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-1.5 ml-1">{{ t.versionLabel }}</label>
+                    class="flex items-baseline justify-between gap-2 text-sm font-semibold text-slate-700 dark:text-slate-300 mb-1.5 ml-1">
+                    <span>{{ t.versionLabel }}</span>
+                    <span class="text-[11px] font-medium text-slate-400 dark:text-slate-500">{{ t.versionHint }}</span>
+                  </label>
                   <div class="relative">
                     <div
                       class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none text-slate-400 group-focus-within:text-primary-500 transition-colors">
@@ -801,7 +804,7 @@
           locale: detectLocale(),
           licenseType: '',
           userName: '',
-          versionName: '26.3',
+          versionName: '26.6',
           userNum: '',
           activeTab: 'keyGenerator',
           licenseFile: null,
